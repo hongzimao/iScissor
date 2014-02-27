@@ -4,9 +4,9 @@ Intelligent Scissor
 
 Setup Matlab Mex environment first. 
 Then in command line box, enter 
-
+```matlab
 mex costPath.cpp
-
+```
 -----------------
 
 Main task
@@ -71,12 +71,15 @@ other UI functions
 
 a, b) zoom in/out Provided by Matlab
 
+
 c) first seed
 
 By first mouse clicking on image to setup
 
+
 d) following seed
 
 By following mouse clicking on image
+
 
 e, f) finish and close contour Clicking near the first seed
