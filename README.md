@@ -13,9 +13,9 @@ Main task
 
 In iScissor.m, change input image name in second line. 
 Then in command line box, enter
-
+```matlab
 iScissor
-
+```
 Setting first seed position by clicking mouse on image, a red point will be drawn.
 Then the contour mask can be selected by moving mouse inside graph. The following seeds will have relatively small size, compared with the first seed.
 Closing contour by clicking near the first seed point (within 10 pixel). A contour mask figure will be generated in second figure file and a mask with original image filled inside will be generated in third figure.
@@ -26,7 +26,6 @@ Figure with mask and mask itself can be saved by Matlab save function.
 Debug mode
 
 a) pixel node
-
 ```matlab
 img = imread(‘cs5421.png’);
 
@@ -34,9 +33,7 @@ img = pixelMode(img);
 
 imshow(img);
 ```
-
 b) cost graph
-
 ```matlab
 img = imread(‘cs5421.png’);
 
@@ -44,10 +41,7 @@ node = setNodeStruct(img);
 
 displayCostGraph(node, img);
 ```
-
-
 c) path tree
-
 ```matlab
 img = imread(‘cs5421.png’);
 
@@ -59,7 +53,6 @@ preNode = costPath(node,141,179, 4, 5);
 
 displayPathTree(preNode);
 ```
-
 d) min path
 
 As a function in main task.
