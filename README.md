@@ -26,20 +26,31 @@ Figure with mask and mask itself can be saved by Matlab save function.
 Debug mode
 a) pixel node
 img = imread(‘cs5421.png’);
+
 img = pixelMode(img);
+
 imshow(img);
+
 
 b) cost graph
 img = imread(‘cs5421.png’);
+
 node = setNodeStruct(img);
+
 displayCostGraph(node, img);
+
 
 c) path tree
 img = imread(‘cs5421.png’);
+
 node = setNodeStruct(img);
+
 preNode = costPath(node,141,179, 4, 5);
+
 ( 141*149 pixels for input image, [4, 5] is seed location )
+
 displayPathTree(preNode);
+
 
 d) min path
 As a function in main task.
