@@ -24,7 +24,9 @@ Figure with mask and mask itself can be saved by Matlab save function.
 ==========================================================================
 
 Debug mode
+
 a) pixel node
+
 img = imread(‘cs5421.png’);
 
 img = pixelMode(img);
@@ -33,6 +35,7 @@ imshow(img);
 
 
 b) cost graph
+
 img = imread(‘cs5421.png’);
 
 node = setNodeStruct(img);
@@ -41,6 +44,7 @@ displayCostGraph(node, img);
 
 
 c) path tree
+
 img = imread(‘cs5421.png’);
 
 node = setNodeStruct(img);
@@ -53,18 +57,22 @@ displayPathTree(preNode);
 
 
 d) min path
+
 As a function in main task.
 
 ==========================================================================
 
 other UI functions
 
+
 a, b) zoom in/out Provided by Matlab
 
 c) first seed
+
 By first mouse clicking on image to setup
 
 d) following seed
+
 By following mouse clicking on image
 
 e, f) finish and close contour Clicking near the first seed
