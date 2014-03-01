@@ -7,7 +7,7 @@ Then in command line box, enter
 ```matlab
 mex costPath.cpp
 ```
------------------
+==========================================================================
 
 Main task
 
@@ -21,7 +21,7 @@ Then the contour mask can be selected by moving mouse inside graph. The followin
 Closing contour by clicking near the first seed point (within 10 pixel). A contour mask figure will be generated in second figure file and a mask with original image filled inside will be generated in third figure.
 Figure with mask and mask itself can be saved by Matlab save function.
 
------------------
+==========================================================================
 
 Debug mode
 
@@ -57,7 +57,7 @@ d) min path
 
 As a function in main task.
 
------------------
+==========================================================================
 
 other UI functions
 
@@ -76,3 +76,8 @@ By following mouse clicking on image
 
 
 e, f) finish and close contour Clicking near the first seed
+
+
+g) unto
+
+Move mouse before confirm to next seed
